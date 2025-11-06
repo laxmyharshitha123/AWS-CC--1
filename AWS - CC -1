@@ -1,0 +1,76 @@
+## 1.intoductionn to cloud compuuting
+1.overview of cloud computing
+what is cloud computing ? 
+*cloud computing is a model that delivers the IT services (servers,storages,databases,networking,software ,etc..) over the internet ("the cloud") on a pay -as-you-go basis.It allows individuals and businsses to use powerful computing resources without owning and maintaining physical infraasturcture.
+instead of running apllications on your laptop you can run them on servers.
+EXAMPLE : 1.when you  watch a  movie on netflix you re streamoing it from cloud servers hosted by aws.
+          2.when you store the photos on google drive,they are saved on googles cloud servers.
+real life analogy : if youre using electricity at home
+you dont build your own powerplant ; ypou just use the service and pay for what you use.
+cc is also used in that way - you use resources from cloud providers and pay based on usage.
+HISTORY : 2006 : aws-this started the modern era of cc
+         today : cloud powerss evrything -from social media apps to ai models like chatgpt.
+there are 3 main service models : 1.iaas-infrastructure as a service
+the cloud provides the basic infrastructure like services,storages
+ex: awsec2,microsoft azure virrtual machine
+2.paas -platform as a service
+the cloud gives you a platforrm to develop ,ru,and manage
+ex : aws elastic beanstalk,google app engine
+3.saas : you use ready-made software over the internet.cant mange.
+ex : gmail,google drive
+2.BENEFITS :  1.cost efficiency : no need to buy expensive serverss;you pay only for what you use.
+            2.collaboration : team members can work together from dofferent locations .
+            3.scalability : increase or decrease capacity anytime (e-commerce websites during festivals)
+            4.sustainability : reduces tthe carbon emissions by shared the resources efficiently.
+CHALLENGES : 1.security risks : data stored online may targeted by hackers.
+            2.data transfer costs  : moving or retrive the large data can be costly.
+            3.vendor lock-in : difficult to  switch from one provider to another.
+            4.limited control : you cant directly control or customize perovider-managed servers
+            5.skill requirement : requires trained proffessional to manage cloud platforms.
+3.TYPES OF CC: three types: 1.public cloud
+                            2.private cloud
+                            3.hybrid cloud
+1.public cloud : *shared by many users (multi-tenant environment)
+                 *it can be maanged by third party companies like AWS ,Azure,Google,Cloud.
+                 *low cost,easy scalable
+     use case : startups or developers launching new apps.
+   example : a college project based on aws free tier is public cloud usage.
+2.private cloud : *used by a single organization for internal operations.
+                  *offers more security,customization,and control.
+    use case : banks,,hospitals,and government sectors that manaage senstive information.
+  exampke : a bank maintaining its data center using VM ware orr openstack.
+3.hybrid cloud : *it is combination of public+private.
+                 *allow organizations to keep senstive data private but use the public cloyd for less critical operations.
+   use case : a shopping site may keep payment data in private and product images in public.
+  example : tcs or infosys using  AWS(public)+their internal private servers(private).
+4.INTRODUCTION TO AWS CLOUD
+    what the aws makes unique?
+      *launched in 2006 by amazon
+      *offers 200+ services across different categories.
+      *provides data storage and ai tools for all business sizes.
+      *used by netflix,nasa,airbnb,tcs.
+AWS services:
+          service             category               purpose
+        amazon ec2          compute        run virtual servers for aplications
+        amazon s3          storage        store data,images,and backups
+       amazon rds          database       manage realational databases
+      aws lambda         serverless       run code without managing the servers
+      amazon cloudfront   cdn            deliver the content very quickly
+example scenario : 
+             suppose you create a photo sharing app
+                    * amazon s3 stores photos securely
+                    *ec2 runs your web server.
+                    *rds holds user account data.
+                    *cloudfront makes image loading faster.
+aws lets even small teams build scalable apps easily.
+5.AWS GLOBAL INFRASTRUCTURE : 
+      aws has a vast global infrastructure designed for speed ,redundancy,and availability
+components : 
+1.regions : geographical areaas (eg mumbai,singapore,us-east)
+2.availabilty zones : multiple data centers inside each region to prevent downtime.
+3.edge locations : deliver data faster by caching it near users.
+fun factsa : aws has 33+ regions,100+azs,and 450+ edge locations
+            aws continues to expand into new countries every year.
+            major clients like netflix depend on aws global infrastructure 
+example : if you are oin india you choose mumbai region for better performance,location for speed.
+               
